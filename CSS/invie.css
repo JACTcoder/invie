@@ -1,0 +1,251 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px;
+}
+
+td{
+	padding: 30px;
+}
+
+table, td, th{
+	border: 2px solid #273b47;
+	border-collapse: collapse;
+}
+
+input, textarea{
+	outline: 0;
+}
+
+.titulo{
+	font-size: 85px;
+	font-family: 'Patua One', cursive;
+	margin-top: 60px;
+	margin-bottom: 0;
+}
+
+.titulo span{
+	text-decoration: underline;
+}
+
+.title-a{
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 25px;	
+}
+
+.title-b{
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+
+.guitarras{
+	color: #1F313C;
+}
+
+.guitarras h2{
+	font-size: 35px;
+	font-family: 'Patua One', cursive;
+}
+
+.guitarra{
+	border: 1px solid #1F313C;
+	margin: 40px 20px 20px 20px;
+	padding: 10px;
+}
+
+.guitarra ol{
+	padding: 0;
+}
+
+.imagen_fondo{
+	background-image: url("https://raw.githubusercontent.com/platzi/desarrollo-web-online/master/images/background.png");
+	background-size: cover; 
+	color: white;
+	
+}
+
+.menu{
+	font-size: 24px;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+.menu, .logotipo, .menu li{
+	display: inline-block;
+}
+
+.menu li{
+	margin-left: 30px;
+}
+
+.menu li:before{
+	content: "○";
+	font-size: 22px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.portada{
+	padding: 50px;
+	height: 400px;
+}
+
+.header{
+	position: relative;
+	padding: 20px;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+
+.contenedor-guitarra-a{
+	padding-left: 20px;
+}
+
+.contenedor-guitarra-b{
+	margin-left: 370px;
+	position: relative;
+	bottom: 85px;
+}
+
+.right{
+	float: right;
+	position: relative;
+	bottom: 127px;
+}
+
+.left{
+	float: left;
+	position: relative;
+	top: -65px;
+}
+
+.primera{
+	border-radius: 50px 15px;
+}
+
+.segunda{
+	border-radius: 15px 50px;
+	margin-bottom: 70px;
+	height: 240px;
+}
+
+.boton-portada{
+	background:linear-gradient(to right,#ff7250,#fe344e);
+	border-radius: 22px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	border:none;
+	cursor: pointer;
+	padding: 10px 30px;
+	margin-top: 5px;
+	margin-bottom: 70px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.boton-formulario{
+	background:linear-gradient(to right,#ff7250,#fe344e);
+	border-radius: 16px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	border:none;
+	cursor: pointer;
+	padding: 7px 20px;
+	margin-top: 15px;
+	margin-bottom: 70px;
+	font-size: 16px;
+}
+
+.footer{
+	background: #273b47;
+	padding: 50px 10px;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 220px;
+}
+
+.contacto img{
+	display: block;
+	position: relative;
+	/*top: 2px;*/
+}
+
+.contacto strong{
+	display: block;
+}
+
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 15px 15px 15px 0px;
+}
+
+.formulario{
+	display: flex;
+	color: white;
+	width: 400px; 	
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px;
+}
+
+.col2{
+	align-items: flex-start;
+}
+
+.intereses label{
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom: 8px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
+
+.tabla div{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.logotipo{
+	margin-left: 0;
+}
